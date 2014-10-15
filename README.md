@@ -5,7 +5,7 @@ Based on the substantial amount of news articles collected from the Web, and usi
 
 Available for Linux platform.
 
-Prerequisits
+Dependencies
 ============
 
 - MongoDb cpp driver
