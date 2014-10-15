@@ -17,3 +17,6 @@ Dependencies
 
 - Flex: 
     - apt-get install flex
+
+- Qt
+    - Download: http://qt-project.org/downloads
