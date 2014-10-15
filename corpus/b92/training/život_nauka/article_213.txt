@@ -1,0 +1,12 @@
+> Izvor: B92
+> Datum: četvrtak 14.03.2013
+> Rubrika: život_nauka
+> Naslov: PI dan
+> Članak:
+
+Danas se u svetu obeležava Međunarodni dan broja pi. Ovaj broj koji u matematici definiše srazmer obima i prečnika kruga iznosi oko 3,14. Pošto je danas 14. mart, a u anglosaksonskom načinu pisanja datuma (3.14) to odgovara ovoj vrednosti, obeležavamo dan pi. Šta je u stvari ovaj broj?
+
+Zašto odnos prečnika i obima kruga daje broj koji se ne može napisati kao razlomak dva prirodna broja? Ova drevna misterija zapravo je mnogo veća od geometrijskih krugova. Gospodin Pi ima dug rep. Gospodin Pi ima beskonačno dug rep. Kad su ga pitagorejci prvi put upoznali, još u Staroj Grčkoj, shvatili su da imaju posla sa brojem koji je izvan svakog dotadašnjeg poimanja. Naime, Pi je jedan od najpoznatijih iracionalnih brojeva. Takvi brojevi se ne mogu predstaviti kao razlomak, a iza decimalne zapete sadrže beskonačno mnogo cifara. Broj Pi nije samo iracionalan, misteriozan je na još jedan način - on je transcedentan. To znači da ne postoji algebarska jednačina za koju bi Pi bio rešenje. Međutim, ovaj broj može da predstavlja i nešto sasvim opipljivo. Stari Grci su pomoću kanapa merili obime raznih krugova - na primer bačvi kako bi izračunali koliko vina u njih staje - i kad god bi ih podelili dužinom prečnika, uvek su dobijali vrednost broja Pi.
+Zanimljive tekstove i aktuelnosti iz sveta nauke možete pronaći na naučno-popularnom portalu Elementarijum.
+Zanimljive tekstove i aktuelnosti iz sveta nauke možete pronaći na naučno-popularnom portalu Elementarijum.
+Zašto odnos prečnika i obima kruga daje broj koji se ne može napisati kao razlomak dva prirodna broja? Ova drevna misterija zapravo je mnogo veća od geometrijskih krugova. Poznat i pod nazivima Arhimedova konstanta i Ludolfov broj, najčešće zapisan grčkim slovom  Ponekad se u računu zaokružuje kao količnik 22/7. Među ciframa broja Pi, redom počevši od nekog mesta, može se naći bilo koji konačni niz: vaš datum rođenja, matični broj, broj telefona, sve se to nalazi negde u broju Pi. Ako bismo Maj mesec matematike kodirali sa 052012 primetili bismo da se ovaj kod takođe nalazi u broju Pi - na 1362638. decimalnom mestu.

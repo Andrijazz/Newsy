@@ -1,0 +1,9 @@
+> Izvor: B92
+> Datum: nedelja 28.04.2013
+> Rubrika: život_nauka
+> Naslov: Otvoren put ka veštačkom čulu dodira
+> Članak:
+
+Tim kineskih i američkih naučnika napravili su prvi korak ka imitiranju čula dodira, tako što su proizveli površinu koja može da registruje pritisak u istom opsegu kao i ljudski prsti.
+
+Ovo otkriće bi, po njihovom mišljenju mogla znatno da ubrza razvitak "pametne veštačke" kože koja je sposobna da "oseća" aktivnost na njenoj površini. Površina sa senzorima koji su opisani u magazinu "Nauka" mogli bi takođe da pomognu da se robotima unapredi čulo dodira, a koristeći snopove nanovlakana od cink-oksida naučnici su uspeli da naprave deo površine koja se sastojala od 8.000 trantistora. Ovo je potpuno nova tehnologija koja omogućava kontrolu električnih naprava direktno koristeći mehanički pokret, a svaki od tranzistora može da nezavisno proizvede elektronski signal kada se stavi pod neku vrstu mehaničkog pritiska. Transistor osetljiv na dodir pod imenom "taksel" ima nivo osetljivosti u rangu onoga koji imaju ljudski prsti. "Svaki mehanički pokret, kao što su pokreti ruku il prstiju robota mogli bi da budu "prevedeni" u stanje u kome bi mogli da kontrlolišu signal, što bi veštačku kožu učinilo "pametnijom" i dalo joj mnogo karakteristika koje ima i prava ljudska koža", rekao je Žong Lin Vang, profesor na Institutu za tehnologiju u Džordžiji. Oponašanje čula dodira je za naučnike bilo veoma izazovno, a ono se može postići merenjem promena u otporu koji su izazvani mehaničkim dodirom. Uređaj koji je proizveden se temelji na fizičkom fenomenu "piezoelektricitetu" kod koga se uočavaju male promene u polarizaciji kod materijala kao štosu cink i njegov oksid kada je pod nekom vrstom pritiska. "Ovo otkriće moglo bi bit korišćeno u mnogim oblastima, uključujuću robotiku, proizvodnji malih uređaja, ljudsko-računarskom interfejsu i poljima koja uključuju mehaničke deformacije", rekao je Žong Lin Vang. 

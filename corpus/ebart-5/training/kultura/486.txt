@@ -1,0 +1,32 @@
+> Izvor: matf
+> Datum: 
+> Rubrika: kultura
+> Naslov: kratkiRezovi
+> Članak:
+
+
+Istorija i filozofija GNU pokreta i predistorija ideje slobodnog softvera, 
+tribina je koja će 11. februara (19.00) biti održana u Sali na prvom spratu 
+beogradskog Doma omladine. Tribina se održava nakon nedavnog prikazivanja filma 
+"Revolution OS" (Revolucija operativnog sistema) i pokušaće da odgovori na sva 
+pitanja koja nisu u samom filmu u potpunosti razjašnjena - od upoznavanja sa 
+GNU idejom i osnovnim principima slobode softvera i njegove odbrane, do uticaja 
+ovakvog stava na društvena kretanja i globalnu ekonomiju, budući da GNU pokret 
+predstavlja i društveno-političku ideju. Celokupna tema biće podeljena na dva 
+dela koji će se naizmenično obrađivati hronološki. Prvi deo će se odnositi na 
+internacionalnu scenu, dok će drugi biti okrenut događanjima kod nas. Predavači 
+su Miloš Rančić - Vikimedija SCG, Ivan Jelić - FSN, Ivan Nador - Vikimedija 
+SCG, Dragan Satarić - Vikimedija SCG i Marko Đorđević - LUG Beograd. Teme 
+izlaganja svrstane su u "Predistoriju ideje slobodnog softvera"; "Događaje 
+tokom sedamdesetih godina koji su doveli do ideje o stvaranju GNU (do kraja 
+1983, rad Richarda Stallmana i MIT i uzrozi koji su doveli do njegovog odlaska 
+sa MIT i formiranja GNU pokreta i Fondacije slobodnog softvera)"; "Događaje po 
+pitanju računarstva, od prvih računara do kraja sedamdesetih kod nas"; "Period 
+od stvaranja GNU do stabilne verzije Linux kernela (1984-1993)"; "Informatičku 
+situaciju osamdesetih kod nas"; "Period od 1993. zaključno sa stvaranjem OSI 
+(Open Source Initiative) u februaru 1998. godine)"; "Devedesete kod nas"; 
+"Period od 1998. do danas u svetu" kao i "Događanja od 2000. do 2005. i 
+trenutno stanje po pitanju zajednice slobodnog softvera kod nas (sve relevantne 
+grupe, ogranizacije i projekti)". Izlaganja će biti praćena prezentacijom na 
+video bimu. Ulaz je slobodan. Organizatori su Vikimedija i Dom omladine 
+Beograda.

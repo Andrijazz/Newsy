@@ -1,0 +1,12 @@
+> Izvor: B92
+> Datum: subota 17.11.2012
+> Rubrika: život_nauka
+> Naslov: Produžen vek misije Kepler
+> Članak:
+
+NASA svemirski teleskop Kepler namenjen istraživanju i otkriću planeta oko drugih zvezda završio je svoju primarnu misiju koja je trajala tri i po godine. Obzirom na njegovo odlično stanje i osigurane finansije krenula je sekundarna misija s istim ciljem i zadacima koja će trajati naredne četiri godine, prenosi Astronomski magazin.
+
+Tokom svog dosadašnjeg rada naučnici su analizom primljenih podataka potvrdili postojanje stotinak takozvanih "Keplerovih egzoplaneta" a još je preko 2300 objekata na listi potencijalnih kandidata koji moraju da prođu provere pre nego što se potvrdi da je zaista reč o egzoplanetama. Neke od tih ekstrasolarnih planeta veličinom odgovaraju našoj Zemlji i smešteni su u habitabilnom (nastanjivom) području oko svojih zvezda što znači da su i potencijalne planete na kojima bi mogao postojati život u nekom obliku kakvog poznajemo i na Zemlji, piše Astronomski magazin.
+Kepler je lansiran 7. marta 2009. godine raketom Delta II sa Kejp Kanaverala na Floridi, a proizvela ga je kompanija Bell Aerospace & Technologies. Masa mu je 1039 kg, opremljen je teleskopom od 0.95 m, ima kameru ukupne rezolucije od impozantnih 95 Mpx čine sa ukupno 42 pojedinačna CCD senzora od kojih svaki ima rezoluciju 2200x1014 px.
+Kepler je lansiran 7. marta 2009. godine raketom Delta II sa Kejp Kanaverala na Floridi, a proizvela ga je kompanija Bell Aerospace & Technologies. Masa mu je 1039 kg, opremljen je teleskopom od 0.95 m, ima kameru ukupne rezolucije od impozantnih 95 Mpx čine sa ukupno 42 pojedinačna CCD senzora od kojih svaki ima rezoluciju 2200x1014 px.
+Nijedna od otkrivenih egzoplaneta nije potpuno slična Zemlji ni po dimenzijama, ni po udaljenosti od matične zvezde, niti po periodu revolucije oko nje no određene sličnosti postoje. Kepler je opremljen veoma složenim optoelektroničnim sistemom čije srce čini teleskop i specijalna CCD kamera. Tokom celog radnog veka ovaj svemirski teleskop usmeren je u jedno te isto područje neba i konstantno opaža preko 150.000 zvezda u potrazi za tragovima planeta oko njih. On svakg minuta ponovo meri sjaj zvezda, a njegove male promene sa karakterističnim grafikom pada sjaja zvezde ukazuje da bi tu mogla postojati planeta koja je u svojoj orbiti oko zvezde prilikom prolaska preko njenog diska uzrokovala kolebanja u sjajnosti same zvezde. Ovaj postupak se naziva metoda tranzita.

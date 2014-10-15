@@ -1,0 +1,11 @@
+> Izvor: B92
+> Datum: sreda 4.07.2012
+> Rubrika: život_nauka
+> Naslov: Srpski CERN-ovci o novom otkriću
+> Članak:
+
+Neposredno pre objavljivanja rezultata istraživanja o otkriću bozona u CERNU, razgovarali smo sa Danicom Stojiljković, istraživačem saradnikom na Institutu za fiziku Beograd i predstavnicom Srbije u Evropskoj komunikacionoj mreži za fiziku elementarnih čestica. Pojasnila nam je šta donosi ovo otkriće.
+
+Od 2008. do 2010. godine Danica je radila u CERN-u na regionalnom i evropskom Grid projektu - mreži računarskih klastera raspoređenih širom planete koji rade kao jedan. Ova mreža je zadužena za obradu rezultata dobijenih u CERN-ovim detektorima. Konačno smo dobili potvrdu za postojanje Higsovog bozona. Šta nam ovo donosi u modernu fiziku? Oba eksperimenta, CMS i ATLAS, registrovala su signal koji se na masenoj skali pojavio na mestu gde se očekuje Higsov bozon prema predvidjanjima Standardnog modela. Preliminarni rezultati pokazuju da se radi o bozonu mase približno 125.3 +- 0.6 GeV. Potrbno je još eksperimentalnih podataka da bi se saznalo više detalja o prirodi ove čestice.
+
+Šta su u CERNU u stvari uradili i na osnovu čega su zaključili da Higs postoji, posto je on veoma mala čestica? Podaci sakupljeni iz 2011. i 2012. godine (do juna meseca) detaljno su analizirani i to uglavnom posredstvom nekoliko najznačajnijih kanala raspada Higsovog bozona prema predviđanjima standardnog modela. Preliminarni rezultati su kompatibilni sa Higsovim bozonom, ali će se definitivno mnogo više znati do kraja ove godine. Na koji način ovo otkriće utiče na Standardni model i na supersimetriju? Ako se potvrdi da je to zaista Higs bozon, biće to konačan trijumf standardnog modela prema kome je samo ova čestica nedostajala. Na višim energijama standardni model će verovatno morati da se dopuni drugim teorijama, među kojima je svakako i supersimetrija. Veliki hadronski sudarač (LHC) je dizajniran za registrovanje i nekih od supersimetričnih čestica. Šta očekujete da se još može otkriti u CERN-u u narednim godinama? Naredna otkrića je teško predvideti ali supersimetricne cestice su svakako prioritet. Ukoliko se pokaže da registrovana čestica nije Higs bozon, to bi bilo još zanimljivije otkriće koje bi nam donelo neku novu fiziku.

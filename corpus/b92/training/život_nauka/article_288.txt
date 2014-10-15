@@ -1,0 +1,11 @@
+> Izvor: B92
+> Datum: petak 7.09.2012
+> Rubrika: život_nauka
+> Naslov: Robot ASIMO dolazi u Beograd
+> Članak:
+
+Najčuveniji robot na svetu, humanoid ASIMO, uskoro dolazi u Beograd. ASIMO će 24. septembra svečano otvoriti naučnopopularnu manifestaciju "Dani budućnosti: Robotika", koju organizuje Centar za promociju nauke u saradnji sa Elektrotehničkim fakultetom Univerziteta u Beogradu.
+
+ASIMO je najuzbudljiviji hodajući spektakl našeg doba. Moguće ga je videti samo na velikim svetskim sajmovima gde se povremeno pojavljuje i fascinira publiku - od dece do naučnika. ASIMO je humanoidni robot koji hoda, razgovara i sposoban je da donosi inteligentne odluke. Visok je 130 centimetara i težak 48 kilograma. Govori (čak i jezik znakova), a poslednji napravljeni primerci mogu da ostvare i međusobnu interakciju. ASIMO može da trči brzinom od šest kilometara na sat, saginje se, okreće, pleše, penje se uz stepenice, šutira loptu, nosi poslužavnik i izvršava najrazličitije zadatke. Jedan od najvećih problema pri konstruisanju robota ASIMO bio je kako ga podstaći da hoda, a da ne izgubi ravnotežu. Rešenje je sedamdesetih godina 20. veka ponudio jedan od pionira u ovoj oblasti, srpski naučnik, akademik Miomir Vukobratović, osnivač tzv. Beogradske škole robotike, koji je osmislio teoriju tačke nula momenta. Naime, kod čoveka, a i kod robota, na stopalu postoji tačka gde je momenat svih sila jednak nuli. Čim vrednost momenta postane veća od nule, to se reguliše povratnom spregom i tako se robot održava u ravnoteži.
+
+Upravo zahvaljujući ovom rešenju, poteklom iz Beogradske škole robotike, prvi ASIMO robot je napravljen u Hondi 2000. godine, mada je njegov razvoj prethodno trajao oko deceniju i po. ASIMO će nastupati 24, 25. i 26. septembra u Zadužbini "Ilije M. Kolarca". Nastup čuvenog robota označiće početak naučnopopularne manifestacije "Dani budućnosti: Robotika" (24.09-15.10) na kojoj će Centar za promociju nauke i Elektrotehnički fakultet Univerziteta u Beogradu, u saradnji sa brojnim partnerima, predstaviti više od 20 robota iz celog sveta. Izložba će se održati u Galeriji Robne kuće Beograd (Knez Mihailova 5).
