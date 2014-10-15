@@ -13,7 +13,7 @@ Prerequisits
     - Repo: https://github.com/mongodb/mongo-cxx-driver
 
 - Boost C++ libraries
-    - sudo apt-get install libboost-all-dev
+    - apt-get install libboost-all-dev
 
 - Flex: 
-    - sudo apt-get install flex
+    - apt-get install flex
