@@ -119,28 +119,6 @@ boost::shared_ptr< Feature > NaiveBayesClassifier::createFeature(QString s)
     }
     return f;
 }
-//void NaiveBayesClassifier::rootBasedLearning()
-//{
-//    std::auto_ptr< mongo::DBClientCursor > cursor = conn.query( "NewsVocabulary.Vocabulary", mongo::Query().sort("_id"));
-//    if (!cursor.get()) {
-//        std::cout << "query failure" << std::endl;
-//        return;
-//    }
-
-//    std::cout << "using cursor" << std::endl;
-
-//    while (cursor->more())
-//    {
-
-//        mongo::BSONObj current = cursor->next();
-//        mongo::BSONElement current_id = current.getField("_id");
-//        std::string id = current_id.String();
-//        std::cout << id << std::endl;
-
-//        std::cout << "\t" << current.jsonString() << std::endl;
-
-//    }
-//}
 
 
 QString NaiveBayesClassifier::classifyNaiveBayesText(QString text)
@@ -173,7 +151,7 @@ QString NaiveBayesClassifier::classifyNaiveBayesText(QString text)
 
             long double value;
 
-            // if tfidf method is on
+            // TODO: FIX - this is just proof of concept.
             if (tfidf)
             {
                 // in how many documents word appears
@@ -212,4 +190,22 @@ QString NaiveBayesClassifier::classifyNaiveBayesText(QString text)
     }
 
     return m_categories[max_category_index];
+}
+
+void NaiveBayesClassifier::registerObserver(boost::shared_ptr<OnLearningFinishedCallback> o)
+{
+    observers.push_back(o);
+}
+
+void NaiveBayesClassifier::unregisterObserver(boost::shared_ptr<OnLearningFinishedCallback> o)
+{
+    observers.removeOne(o);
+}
+
+void NaiveBayesClassifier::notifyOnLearningFinished()
+{
+    for (int i = 0; i < observers.length(); i++)
+    {
+        observers[i]->onLearningFinishedCallback();
+    }
 }

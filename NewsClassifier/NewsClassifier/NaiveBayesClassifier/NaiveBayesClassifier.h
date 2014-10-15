@@ -22,24 +22,9 @@ public:
 
     void learnNaiveBayesText();
 
-    void registerObserver(boost::shared_ptr<OnLearningFinishedCallback> o)
-    {
-        observers.push_back(o);
-    }
-
-    void unregisterObserver(boost::shared_ptr<OnLearningFinishedCallback> o)
-    {
-        observers.removeOne(o);
-    }
-
-    void notifyOnLearningFinished()
-    {
-        for (int i = 0; i < observers.length(); i++)
-        {
-            observers[i]->onLearningFinishedCallback();
-        }
-    }
-
+    void registerObserver(boost::shared_ptr<OnLearningFinishedCallback> o);
+    void unregisterObserver(boost::shared_ptr<OnLearningFinishedCallback> o);
+    void notifyOnLearningFinished();
 
 private:
 
@@ -62,7 +47,7 @@ private:
 
     std::vector<int> textj;
 
-    // JUST FOR NOW - PROFF OF CONCEPT
+    // JUST FOR NOW - PROOF OF CONCEPT
     bool tfidf;
     int m_total;
     QList< boost::shared_ptr<OnLearningFinishedCallback> > observers;
