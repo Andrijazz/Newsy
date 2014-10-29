@@ -37,25 +37,12 @@ void Runtime::onFeaturesSet()
 {
     featureSetDialog->close();
 
-    boost::thread spinnerThread(&Runtime::spin, this);
-    spinnerThread.join();
-
     main_window.reset(new MainWindow);
     main_window->setGeometry(QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter, main_window->size(), geometry));
     main_window->initialize();
+    main_window->show();
+
     main_window->registerObserver(shared_from_this());
-}
-
-void Runtime::spin()
-{
-
-    spinnerWidget.reset(new SpinnerWidget);
-    spinnerWidget->setGeometry(QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter, spinnerWidget->size(), geometry));
-    spinnerWidget->setWindowFlags(Qt::CustomizeWindowHint);
-
-    spinnerWidget->start();
-    spinnerWidget->show();
-
 }
 
 void Runtime::onReset()

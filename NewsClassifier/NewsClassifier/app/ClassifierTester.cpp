@@ -3,11 +3,12 @@
 #include "PdfGenerator.h"
 
 #include <stdlib.h>
+#include <QWidget>
 
 
 // TODO: Create matrix class
 
-void ClassifierTester::test(boost::shared_ptr< NaiveBayesClassifier > classifier)
+void ClassifierTester::test(boost::shared_ptr< NaiveBayesClassifier > classifier, boost::shared_ptr< QWidget > waitWidget)
 {
     boost::shared_ptr< CorpusHandler > corpusHandler(new TestingCorpusHandler());
 
@@ -49,19 +50,17 @@ void ClassifierTester::test(boost::shared_ptr< NaiveBayesClassifier > classifier
 
     QString report = getHtmlReport(confusion_matrix, n, corpusHandler);
 
-    // Fire in a new thread
     if (PdfGenerator::generatePdf(report))
     {
-        // fire in a new thread
+        waitWidget->close();
         system ("okular test_report.pdf");
     }
     else
     {
         // PROMT MSG BOX ERROR
     }
-
-
 }
+
 
 float ClassifierTester::getMacroaveragePrecision(unsigned int** mat, unsigned int n)
 {

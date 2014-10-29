@@ -13,9 +13,11 @@
 class ClassifierTester
 {
 public:
-    static void test(boost::shared_ptr< NaiveBayesClassifier > classifier);
+    static void test(boost::shared_ptr< NaiveBayesClassifier > classifier, boost::shared_ptr< QWidget > waitWidget);
 
 private:
+
+    void show();
 
     static QString getHtmlReport(unsigned int** mat, unsigned int n, boost::shared_ptr< CorpusHandler > CorpusHandler);
 

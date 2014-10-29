@@ -9,7 +9,6 @@
 #include <boost/shared_ptr.hpp>
 
 #include <QRect>
-#include "spinnerwidget.h"
 
 class Runtime : public OnCorpusSetObserver, public OnFeaturesSetObserver, public OnResetObserver,
         public boost::enable_shared_from_this< Runtime >
@@ -24,14 +23,13 @@ public:
     virtual void onFeaturesSet();
     virtual void onReset();
 
-    void spin();
 private:
     boost::shared_ptr< SelectCorpusDialog > corpusSetDialog;
     boost::shared_ptr< SelectFeatureDialog > featureSetDialog;
     boost::shared_ptr< MainWindow > main_window;
-    boost::shared_ptr< SpinnerWidget > spinnerWidget;
-    QRect geometry;
 
+
+    QRect geometry;
 
 };
 #endif // RUNTIME_H

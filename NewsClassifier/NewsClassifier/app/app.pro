@@ -24,8 +24,7 @@ SOURCES += main.cpp\
     SelectCorpusDialog.cpp \
     Runtime.cpp \
     selectfeaturedialog.cpp \
-    QtWaitingSpinner.cpp \
-    spinnerwidget.cpp
+    waitwidget.cpp
 
 HEADERS  += mainwindow.h \
     PdfGenerator.h \
@@ -36,10 +35,9 @@ HEADERS  += mainwindow.h \
     Runtime.h \
     Feature.h \
     selectfeaturedialog.h \
-    QtWaitingSpinner.h \
-    spinnerwidget.h
+    waitwidget.h
 
 FORMS    += mainwindow.ui \
     SelectCorpusDialog.ui \
     selectfeaturedialog.ui \
-    spinnerwidget.ui
+    waitwidget.ui

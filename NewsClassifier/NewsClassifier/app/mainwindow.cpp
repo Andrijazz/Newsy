@@ -3,11 +3,14 @@
 
 #include <QString>
 #include <QVBoxLayout>
+
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
 }
 
 MainWindow::~MainWindow()
@@ -19,13 +22,34 @@ void MainWindow::initialize()
 {
     m_classifier.reset(new NaiveBayesClassifier());
     m_classifier->registerObserver(shared_from_this());
+    boost::thread learnThread(boost::thread(&MainWindow::learn, this));
+
+    show();
+
+    waitWidget.reset(new waitwidget);
+    waitWidget->setGeometry(QStyle::alignedRect(Qt::LeftToRight, Qt::AlignCenter, waitWidget->size(), this->geometry()));
+    waitWidget->setWindowFlags(Qt::CustomizeWindowHint | Qt::WindowStaysOnTopHint);
+    waitWidget->show();
+
+}
+
+void MainWindow::learn()
+{
     m_classifier->learnNaiveBayesText();
+
 }
 
 void MainWindow::on_actionClassifier_preformances_triggered()
 {
-    ClassifierTester::test(m_classifier);
+    waitWidget->show();
+    boost::thread testThread(boost::thread(&MainWindow::test, this));
 }
+
+void MainWindow::test()
+{
+    ClassifierTester::test(m_classifier, waitWidget);
+}
+
 
 void MainWindow::on_actionExit_triggered()
 {
@@ -64,5 +88,5 @@ void MainWindow::on_actionSettings_triggered()
 
 void MainWindow::onLearningFinishedCallback()
 {
-    show();
+    waitWidget->close();
 }

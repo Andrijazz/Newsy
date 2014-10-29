@@ -77,7 +77,7 @@ void NaiveBayesClassifier::setup()
     // calculate pvj
     for (unsigned int j = 0; j < m_categories.size(); j++)
     {
-        pvj.push_back((long double)1 / m_categories_sizes[j]);
+        pvj.push_back((long double) m_categories_sizes[j]/m_total);
     }
 
     vocabulary = conn.count("NewsVocabulary.Vocabulary");
@@ -138,7 +138,7 @@ QString NaiveBayesClassifier::classifyNaiveBayesText(QString text)
     std::vector<long double> pj;
     for (unsigned int j = 0; j < m_categories.size(); j++)
     {
-        long double temp = 0;
+        long double temp = 0; int times = 1;
         for (unsigned int i = 0; i < nks.size(); i++)
         {
             // how many times the word apears in the category
@@ -147,6 +147,9 @@ QString NaiveBayesClassifier::classifyNaiveBayesText(QString text)
             {
                 mongo::BSONElement e = nks[i].getField(m_categories[j].toStdString());
                 nk = e.numberInt();
+                mongo::BSONElement e2 = nks[i].getField("_id");
+                std::string word = e2.String();
+                times = bag_of_words[QString(word.c_str())];
             }
 
             long double value;
@@ -167,13 +170,14 @@ QString NaiveBayesClassifier::classifyNaiveBayesText(QString text)
                 tf = nk;
                 idf = (float)m_total/df;
                 value = (long double)(tf*idf + 1) / (textj[j] + vocabulary);
-                temp += std::log(value);
+                temp += (std::log(value) * times);
 
             }
             else
             {
                 value = (long double)(nk + 1) / (textj[j] + vocabulary);
-                temp += std::log(value);
+                temp += (std::log(value)* times);
+
             }
         }
         long double res = std::log(pvj[j]) + temp;
